@@ -37,7 +37,7 @@ Sub SaveOutlookAttachments()
                 Else
                     Set dir = fso.CreateFolder(dirName)
                 End If
-                
+                                            'for loop
                 For Each at In mi.Attachments
                 
                     'Debug.Print vbTab, at.DisplayName, at.Size
